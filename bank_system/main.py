@@ -13,6 +13,19 @@ extrato = ""
 numero_saques = 0
 LIMITE_SAQUES = 3
 
+#Keyword only
+def saque(saldo, valor, extrato, limite, numero_saques, limite_saques):
+    return saldo, extrato
+
+#Positional only
+def deposito(saldo, valor, extrato):
+    return saldo, extrato
+
+#Keyword and position
+def extrato():
+    return None
+
+
 while True:
 
     opcao = input(menu)
